@@ -1,3 +1,6 @@
+#
+# System Calls: socketpair(2), recv(2), send(2)
+#
 require 'socket'
 
 child_socket, parent_socket = Socket.pair(:UNIX, :DGRAM, 0)
